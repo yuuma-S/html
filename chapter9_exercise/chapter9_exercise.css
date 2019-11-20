@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+ 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main{
+	width: 960px;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #f5f5f5;
+}
+
+.box1{
+	width: 300px;
+	height: 350px;
+	margin-right: 30px;
+	background-color: #f5f5f5;
+	float: left;
+	position: relative;
+	border: 1px solid #808080;
+}
+
+.box2{
+	width: 300px;
+	height: 350px;
+	margin-right: 30px;
+	background-color: #f5f5f5;
+	float: left;
+	position: relative;
+	border: 1px solid #808080;
+}
+
+.box3{
+	width: 300px;
+	height: 350px;
+	margin-right: 0px;
+	background-color: #f5f5f5;
+	float: left;
+	position: relative;
+	border: 1px solid #808080;
+	}
+
+.img1{
+	margin:10px;
+	width:280px;
+	height: 200px;
+	background-image: url(img/flow01.png);
+	background-position: center;
+	background-size: cover;
+}
+.img2{
+	margin:10px;
+	width:280px;
+	height: 200px;
+	background-image: url(img/flow02.png);
+	background-position: center;
+	background-size: cover;
+}
+.img3{
+	margin:10px;
+	width:280px;
+	height: 200px;
+	background-image: url(img/flow03.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.step1{
+	position:absolute;
+	top:0;
+	left: 0;
+	color: white;
+	background-color: orange;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.step2{
+	position:absolute;
+	top:0;
+	left: 0;
+	color: white;
+	background-color: orange;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.step3{
+	position:absolute;
+	top:0;
+	left: 0;
+	color: white;
+	background-color: orange;
+	font-size: 30px;
+	padding: 5px;
+}
+
+h1{
+	font-size: 20px;
+}
+

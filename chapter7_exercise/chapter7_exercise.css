@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+ 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header{
+	width: 100%
+	margin-bottom: 20px;
+}
+
+.headline{
+	padding: 20px;
+
+}
+
+.img{
+	height: 400px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: 100% 400px;
+}
+
+main{
+	width: 840px;
+	margin:50px auto;
+}
+
+.blog-box{
+	padding-top:30px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #f7f7f7;
+}
+
+.blog-link{
+	border-bottom: 1px solid black;
+}
